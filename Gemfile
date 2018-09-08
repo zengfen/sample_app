@@ -43,7 +43,7 @@ group :development, :test do
     gem 'byebug', platform: :mri
 
     gem "mysql2", '=0.3.20', :platform => :ruby
-    gem 'rspec-rails', '2.13.1'
+    gem 'rspec-rails'
 
 end
 
@@ -64,3 +64,5 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
+
+gem 'test-unit'
