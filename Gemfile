@@ -44,12 +44,13 @@ group :development, :test do
 
     gem "mysql2", '=0.3.20', :platform => :ruby
     gem 'rspec-rails'
-
+    gem 'guard-rspec'
 end
 
 group :test do
     gem 'selenium-webdriver'
     gem 'capybara'
+    gem 'growl'
 end
 
 group :development do
