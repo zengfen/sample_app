@@ -10,6 +10,6 @@ class StaticPagesController < ApplicationController
   end
 
   def contact
-"".blank?
+
   end
 end
