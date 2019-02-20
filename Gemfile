@@ -69,3 +69,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'test-unit'
 
 gem 'bootstrap-sass', '2.3.2.0'
+
+gem 'mini_magick'
+
+gem 'bcrypt-ruby'
