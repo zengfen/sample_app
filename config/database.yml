@@ -5,11 +5,11 @@
 #   gem 'sqlite3'
 #
 default: &default
-  adapter: postgresql
+  adapter: mysql2
   pool: 5
   timeout: 5000
   encoding: utf8
-  username: zengfen
+  username: root
   password: fenfenlehe
   host: 127.0.0.1
 #  port: 3306
