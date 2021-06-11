@@ -30,3 +30,15 @@ test:
 production:
   <<: *default
   database: sample_app
+
+
+othors:
+  development:
+    adapter: mysql2
+      pool: 5
+      timeout: 5000
+      encoding: utf8
+      username: root
+      password: fenfenlehe
+      host: 127.0.0.1
+      database: othors
