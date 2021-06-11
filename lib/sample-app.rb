@@ -1,4 +1,4 @@
-# require "sample-app/version"
+require "sample-app"
 
 module SampleApp
   def self.hello
