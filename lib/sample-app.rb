@@ -1,7 +1,7 @@
 require "sample-app"
 
-module SampleApp
-  def self.hello
-    p "hello from my gem"
-  end
-end
+# module SampleApp
+#   def self.hello
+#     p "hello from my gem"
+#   end
+# end
