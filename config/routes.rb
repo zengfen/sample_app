@@ -25,6 +25,11 @@ Rails.application.routes.draw do
   match '/signout', to: 'sessiong#destroy',      via: 'delete'
 
 
+  namespace :admin do
+    resources :settings
+  end
+
+
 
   resources :microposts
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html

@@ -80,3 +80,7 @@ gem 'bootstrap-sass', '2.3.2.0'
 gem 'mini_magick'
 
 gem 'bcrypt-ruby'
+
+# 全局配置
+gem "rails-settings-cached", '0.7.2'
+#, "~> 2.5"
